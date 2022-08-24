@@ -9,16 +9,17 @@
 
 #### Types of Attacks
 
-- Phishing
-    - Obtaining sensitive information
-        - Usernames
-        - Password
-        - Credit Card Information
-    - Tricking a user into entereing their information into a fake website
-        - Email Spoofing
-        - Instant Messaging
-        - SMS (Smishing)
-    - Pretend to be social media websites, auctions sites, or communicationsa from friends or colleagues
+#### Phishing
+
+- Obtaining sensitive information
+    - Usernames
+    - Password
+    - Credit Card Information
+- Tricking a user into entereing their information into a fake website
+    - Email Spoofing
+    - Instant Messaging
+    - SMS (Smishing)
+- Pretend to be social media websites, auctions sites, or communicationsa from friends or colleagues
 
 #### Types of Phishing
 
@@ -43,3 +44,77 @@
 - SPAM over Instant Messaging (SPIM)
     - Can be more effective as the interactions can occur in real-time
 
+#### Dumpster Diving
+
+- Removing rash from dumpsters that could reveal sensitive information
+    - Usernames / Passwords
+    - Personally Identifieable Information (PII)
+    - Company Docuemnts, Resumes etc
+- Mitigation
+    - Shredding documents prior to disposal
+    - Locked waste cans to be transported off-site for shredding / disposal
+
+#### Shoulder Surfing
+
+- Social Engineering trick to get someone to enter credentials into an application or website
+    - Strike up a conversation about their kid's sports, then ask to see some pictures
+    - Should surf as they enter their username / password into social media website
+- Mitigation
+    - Privacy Screens
+    - Masked Passwords
+    - Multiple asterisks per ketystroke to further obfuscate the length of a password
+- Technical Controls
+    - Cameras to monitor
+        - Doors
+        - Sensitive Areas
+    - Keycard Access
+
+#### Pharming
+
+- Redirect Users website traffic to a fake malicious website. 
+    - DNS Cache Poisoning
+    - Host File Injection
+- User visits fake website and enteres credentials (username / password etc.)
+
+#### Tailgating
+
+- Following someone into a building through a gated area or badged access area
+
+
+#### Hoaxes
+
+- Social Engineering technique using the phone and/or voicemail to trick the target into providing sensitive information
+    - Hacker acts like a remote technician or employee
+    - Interested party seeing employment
+- Security Awareness Training
+    - Ensure employees know to never click links from sources they don't know
+    - Don't open attachments from an unknown origin
+- Technical Control
+    - SPAM Filtering
+    - Heuristics
+    - Firewalls / DPI (Deep Packet Inspection)
+
+#### Prepending
+
+- Adding mentions (@username) to tweets or social media posts to make them seem more personal
+    - Higher Engagement
+    - Can be automated to become almost as efficient as manual speak-phishing
+
+
+#### Impersonation
+
+- Impersonation can be done via a number of methods:
+    - Social Engineering
+    - Stolen credentials / credentials harvesting
+    - Infiltrating a network and capturing and replaying packets on a network
+
+#### Identity Fraud
+
+- Identity theft and identity fraud are same terms
+    - Malware, Social Engineering, Old-school methods (Dumpster Diving)
+    - Victims Identity is used to obtain credit, steal money / assets etc. 
+
+#### Invoice Scam
+
+- Whaling Technique where bad actors spoof executive email accounts
+- Contact finance or accounts payable and ask them to pay a fraudulent invoice
