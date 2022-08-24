@@ -118,3 +118,70 @@
 
 - Whaling Technique where bad actors spoof executive email accounts
 - Contact finance or accounts payable and ask them to pay a fraudulent invoice
+
+#### Credential Harvesting
+
+- Phishing Campaigns
+- Malware
+- Pastebin and other paste sites
+
+#### Watering Hole Attack
+
+- Sophisticated attack that identifies less secure websites users in a particular company or org
+- Attacks plant malware on the sites users visit to infect targeted users
+- Malicious code scans the computer for zero day vulns
+
+#### Typo Squatting / URL Hijacking
+
+- Setting up Domain Names to capitalize on the fact that user's make typos.
+
+#### Hybrid Warfare
+
+- Combine Traditional Warfare with Blackhat hackers - state sponsored hackers
+- Information Operations
+- Cyber Activities
+- Proxy Organizations
+- Economic Influence
+- Clandestine Measures
+    - Blackhat
+    - Greyhat
+    - Whitehat
+- Political Influence
+    - Fake News Campaigns
+
+#### Social Media
+
+- Influence Campaigns
+    - Social media can be powerful in shaping public opinion
+    - Help or hurt company image
+    - Stock Price Fixing
+    - Public Policy Influence
+
+#### Principles (Reasons for Effectiveness)
+
+- Authority
+    - Bad Actor appears to know what they're talking about or has special knowledge of the company
+    - Technical Jargon
+    - Name Dropping
+    - Knowledge of Systems / Infrastructure / Applications
+
+- Intimidation
+    - Social Engineer can use several techniques
+        - Threaten / Blackmail
+
+- Consensus / Social Proof
+    - Mob mentality
+    - Doing what other people are already doing
+
+- Familiarty / Liking
+    - People don't like change
+    - Be likely to converse with them
+    - Attacker will establish a common contact or friend
+
+- Trust
+    - Use variety of tactics to obtain information
+
+- Scarcity / Urgency
+    - Social Engineer will use tactics that need to act quickly
+    - FOMO
+
