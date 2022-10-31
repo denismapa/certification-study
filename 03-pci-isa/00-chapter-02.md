@@ -91,6 +91,39 @@ After completing this module, you will be able to:
 - PCI PTS - POI
   - This standard covers the protection of sensitive data at POI (Point of Interaction) devices
 - PCI PTS - PIN Security
+  - Secure management processing and transmittion of personal identification (PIN) during online and offline payment card transaction processing.
 - PCI PTS - HSM
   - Hardware Security Modules
-- PCI Card Protection
+- PCI Card Production
+  - Physical And Logical Security Requirements for systems and business processes.
+
+#### PA-DSS
+
+- Applies to Third-party payment applications
+  - If application performs authorization and/or settlement (POS, Shopping carts, etc,)
+
+- Ensures a payment application can function in a PCI DSS Compliant manner
+- Use of PA-DSS application does not guarantee PCI DSS Compliance
+
+- PA-DSS Applications are in scope for PCI DSS
+  - Assessor must validate the payment application is installed:
+  - Per Instructions in the PA-DS Implementation Guide provide by payment application vendor.
+  - In a PCI DSS Compliance Manner
+
+#### PCI Point-to-Point Encryption
+
+- A PCI P2PE Solution must include all of the following:
+  - Secure encryption of payment card data at the point-of-interaction (POI)
+  - P2PE-validated Applications at the point-of-interaction
+  - Secure management of encryption and decryption devices
+  - Management of the decryption environment and all decrypted account data
+  - Use of secure encryption methodologies and cryptographic key operations, including key generation, distribution, loading/injection, administration and usage
+
+- Merchants may be able to reduce their PCI DSS Scope when using Council-listed P2PE solutions
+  - Merchant has no access to account data within encryption device (POI) or decryption environment (at Solution Provider)
+  - Merchant has no involvement in encryption or decryption operations, or cryptographic key management
+  - All cryptographic operations managed by third party Solution Provider
+
+
+#### PCI DSS: Relationship to PA-DSS and P2PE
+
