@@ -9,3 +9,13 @@
 
 
 ---
+
+## PCI Fundamentals
+
+1. Course Introduction
+### Definitions & Acronyms
+- PCI
+    - Payment Card Industry
+
+- PCI SSC
+    - Payment Card Industry Security Standards Council
