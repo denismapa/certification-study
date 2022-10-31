@@ -87,7 +87,6 @@ After completing this module, you will be able to:
       - Payment Application Receives account data from PIN entry Devices or other devices and begin payment transaction
 - PCI P2PE
   - Covers Encryption, Decryption and Encryption Key Management Standards for PPP (Point to Point) Encryption Solutions
-
 - PCI PTS - POI
   - This standard covers the protection of sensitive data at POI (Point of Interaction) devices
 - PCI PTS - PIN Security
@@ -124,6 +123,46 @@ After completing this module, you will be able to:
   - Merchant has no involvement in encryption or decryption operations, or cryptographic key management
   - All cryptographic operations managed by third party Solution Provider
 
-
 #### PCI DSS: Relationship to PA-DSS and P2PE
+
+Applies to all entities involved in payment card processing, and any entity that stores, processes, or transmits account data
+
+- Applies to the following:
+  - Merchants
+  - Processors
+  - Acquirers
+  - Issuers
+  - Service providers
+
+- Also applies to any entity that performs the following:
+  - Stores
+  - Processes
+  - Transmits
+
+#### PCI PTS (PIN Transaction Security)
+
+If a PTS Device is integrated into a POS or other payment systems implementation. The PTS Standard only applies to the PTS features and PA-DSS Applies to the Payment Application Features
+
+PCI PTS Applies to the following:
+
+- Attended Point-of-Sale Devices: Devices used at Cash Registers
+
+- Encrypting Pin Pads which are used for unattended environments
+  - Bank ATM Pin Pads
+
+- Unattended payment terminals for Automated Fuel Dispensers and Kiosks
+
+#### PCI PIN Security Requirements
+
+- These requirements provide for secure PIN:
+  - management
+  - processing
+  - transmission
+
+- Protection of personal identification number (PIN) data during online and offline payment card transaction processing at:
+ - ATMs
+ - attended point-of-sale (POS) terminals
+ - unattended point-of-sale (POS) terminals
+
+- The Requirements also pvoide guidance on key management and key handling associated with the PIN
 
