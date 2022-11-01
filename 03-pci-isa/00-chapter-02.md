@@ -160,9 +160,108 @@ PCI PTS Applies to the following:
   - transmission
 
 - Protection of personal identification number (PIN) data during online and offline payment card transaction processing at:
- - ATMs
- - attended point-of-sale (POS) terminals
- - unattended point-of-sale (POS) terminals
+- ATMs
+- attended point-of-sale (POS) terminals
+- unattended point-of-sale (POS) terminals
 
 - The Requirements also pvoide guidance on key management and key handling associated with the PIN
 
+#### PCI DSS and PCI PTS Standards
+
+##### PCI DSS
+
+- Requires that account data be protected both when stored and when transmitted across open public networks
+- Payment Card Industry (PCI) Pin Transaction Security (PTS) Point-of-Interaction (POI) validates how POIs protectPIN and account data and manage cryptographic keys
+- PCI PTS POI-approved devices may form part of a PCI DSS compliant environment.
+
+##### PCI PTS - Pin Security Standard and PCI DSS
+
+- PCI DSS Prohibits storage of encrypted PIN Blocks
+- No Overlap
+
+##### PCI Card Production and PCI DSS
+
+- No Overlap
+- Procedures for assessing card production facilities are defined and managed by the payment brands not by PCI SSC
+
+##### PCI PTS - HSM and PCI DSS
+
+- PCI DSS requires that stored cardholder data be protected and cryptographic keys be managed in a secure manner
+- User of a Hardware Security Module is not required by PCI DSS but may help with managing keys used to protect stored CHD (Card holder data)
+
+### Payment Industry Terminology
+
+Payment Network Flow
+
+- Authorization
+  - Merchant Requests and Receives Authorization
+
+- Clearing
+  - Issuer and Acquirer exchange purchase and reconciliation information
+
+- Settlement
+  - Issuer pays Acquirer
+  - Merchant receives payment
+  - Cardholder gets charged
+
+##### Terminology
+
+- Cardholder
+  - Customer purchasing goods either as a "Card Present" or "Card Not Present" transaction
+  - Receives the payment card and bills the issuer
+
+- Issuer
+  - Bank or other orgs issuing a payment card on behalf of a Payment Brand (MasterCard & Visa)
+  - Payment brand issuing a payment card directly (e.g. Amex, Discover, JCB)
+
+- Merchant
+  - Organization accepting the payment card for payment during a purchase
+
+- Acquirer
+  - Bank or entity the merchant uses to process their payment card transactions
+  - Receive authorization requets from merchant and forward to Issuer for approval
+  - Provide authorization, clearing and settlement services to merchants
+
+Acquirer's are also called the following:
+
+- Merchant Bank
+- ISO (Sometimes)
+- Payment Brand
+  - Amex (American Express)
+  - Discover
+  - JCB
+  - Never Visa or MasterCard
+
+AMEX / DISCOVER / JCB
+
+- They are Issuers and Acquirers
+- Closed Loop
+
+VISA / MASTERCARD
+
+- Open Loop
+
+#### Card Procesing - Authorization
+
+1. Cardholder Presents Card
+2. Acquirer asks payment brand to determine issuer
+3. Payment Brand Network determines issuer and requests approval
+4. Issuer approves purchase
+5. Payment Brand network sends approval to acquirer
+6. Acquirer sends approval to merchant
+
+#### Card Processing - Clearing
+
+1. Acquirer sends purchase information to the payment brand network
+2. Payment brand network sends purchase information to issuer
+
+- Issuer Prepares data for cardholder statement
+
+3. Payment Brand Network provides complete reconciliation to acquirer
+
+#### Card Processing - Settlement
+
+1. Issuer determines acquirer via the payment brand network
+2. Issuer sends payment to acquirer
+3. Acquirer pays merchant for cardholder's purchase
+4. Issuer bills Cardholder
