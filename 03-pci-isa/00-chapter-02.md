@@ -266,13 +266,12 @@ VISA / MASTERCARD
 3. Acquirer pays merchant for cardholder's purchase
 4. Issuer bills Cardholder
 
-
 #### Service Providers
 
 - A business that is not a payment brand, directly involved in the processing, storage or transmission of cardholder data on behalf of another entity.
   - Sometimes a service provider is a merchant
 
-- Includes companies that provide services (to merchants, service providers or entities) which control or could impact the security of cardholder data. 
+- Includes companies that provide services (to merchants, service providers or entities) which control or could impact the security of cardholder data.
 
 ###### Working with Service Providers
 
@@ -281,5 +280,23 @@ VISA / MASTERCARD
     - 1 - Undergo a PCI DSS assessment on their own and provide evidence to their customers demonstrating their compliance; or
     - 2 - Have their services reviewed during the course of each of their customers’ PCI DSS assessments
 
-- 12.9 - Maintain a Template to provide to their Clients. 
+- Entities using hosting facility; the hosting facility will need to provide evidence (AOC) that they are PCI Compliant
+
+- Providing access to public connection like an ISP
+  - Is not considered in-scope
+
+- 12.9 - Maintain a Template to provide to their Clients.
 - Service Providers must agree to maintain all applicable PCI DSS Controls
+
+#### Service Provider Terms
+
+TPP = Third Party Processor
+PSP = Payment Service Proviers
+DSE = Data Storage Entity
+VNP = VisaNet Processor
+
+1. American Express - TPP
+2. Discover - TPP & PSP
+3. JCB International - TPP
+4. MasterCard - TPP & DSE
+5. Visa - VNP
