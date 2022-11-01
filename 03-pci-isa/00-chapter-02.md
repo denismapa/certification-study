@@ -265,3 +265,21 @@ VISA / MASTERCARD
 2. Issuer sends payment to acquirer
 3. Acquirer pays merchant for cardholder's purchase
 4. Issuer bills Cardholder
+
+
+#### Service Providers
+
+- A business that is not a payment brand, directly involved in the processing, storage or transmission of cardholder data on behalf of another entity.
+  - Sometimes a service provider is a merchant
+
+- Includes companies that provide services (to merchants, service providers or entities) which control or could impact the security of cardholder data. 
+
+###### Working with Service Providers
+
+- Entities often use a third-party service provider to store, process, or transmit cardholder data on their behalf, or to manage components of their CDE.
+  - There are two options for third-party service providers to validate compliance
+    - 1 - Undergo a PCI DSS assessment on their own and provide evidence to their customers demonstrating their compliance; or
+    - 2 - Have their services reviewed during the course of each of their customers’ PCI DSS assessments
+
+- 12.9 - Maintain a Template to provide to their Clients. 
+- Service Providers must agree to maintain all applicable PCI DSS Controls
