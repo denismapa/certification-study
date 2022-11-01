@@ -57,4 +57,4 @@ Service Provider Levels
  - Defined by the payment brands according to transaction volume and/or type of service provider
  - Determined by the payment brands or acquirer, or sometimes the service provider
 
-Compliance Validation Requirements vary by the payment brand.
+Compliance Validation Requirements vary by the payment brand. 
