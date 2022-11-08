@@ -102,11 +102,26 @@ PCI DSS Validation Requirements Overview
 |4|N/A|Annual SAQ - Quarterly ASV|N/A|Annual SAQ - Quarterly ASV|Annual SAQ - Quarterly ASV - Visa Europe AOC|
 
 
-### Self-Assessment Questionnaire (SAQ)
+### Chapter 3: Section 7 - Self-Assessment Questionnaire (SAQ)
 
 - SAQ is a validation tool to assist merchants and service providers in self-avluating their compliance with the PCI DSS.
 - Multiple versions of the PCI DSS SAQ to meet various scenarios.
 - PCI DSS SAQ is a validation tool for merchants and service providers not required to submit an onsite data security assessment Report on Compliance.
 
 - SAQ-A
-    - Card Not Present Transactions (eCom or Mail Order / Telephone Order)
+  - Card Not Present Transactions (eCom or Mail Order / Telephone Order)
+  - Outsource to PCI DSS Compliant Service Providers (Not Applicable to Face-to-face Payment Channels)
+- SAQ A-EP
+  - E-commerce merchants who outsource all payment processing to PCI DSS validated third parties.
+- SAQ B
+  - Imprint only merchants with no electronic cardholder data storage or standalone, dial-out terminal merchants with no electronic cardholder data storage
+- SAQ B-IP
+  - Merchants using only stand-alone, PTS-approved payment terminals with an IP connection to the payment processor, with no electronic cardholder data storage.
+- SAQ C
+  - Merchants with segmented payment application systems connected to Internet with no electronic CHD storage
+- SAQ C-VT
+  - All merchants not included in the descriptions
+  - Service Providers: All service providers identified by a payment brand
+- SAQ D
+  - Merchants: All merchants not included in the descriptions for other SAQ types.
+  - Service Providers: All service providers identified by a payment brands as eligible to complete a self-assessment questionnaire.
