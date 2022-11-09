@@ -111,17 +111,24 @@ PCI DSS Validation Requirements Overview
 - SAQ-A
   - Card Not Present Transactions (eCom or Mail Order / Telephone Order)
   - Outsource to PCI DSS Compliant Service Providers (Not Applicable to Face-to-face Payment Channels)
+
 - SAQ A-EP
   - E-commerce merchants who outsource all payment processing to PCI DSS validated third parties.
+
 - SAQ B
   - Imprint only merchants with no electronic cardholder data storage or standalone, dial-out terminal merchants with no electronic cardholder data storage
+
 - SAQ B-IP
   - Merchants using only stand-alone, PTS-approved payment terminals with an IP connection to the payment processor, with no electronic cardholder data storage.
+
 - SAQ C
   - Merchants with segmented payment application systems connected to Internet with no electronic CHD storage
+
 - SAQ C-VT
   - All merchants not included in the descriptions
   - Service Providers: All service providers identified by a payment brand
+
 - SAQ D
   - Merchants: All merchants not included in the descriptions for other SAQ types.
+  
   - Service Providers: All service providers identified by a payment brands as eligible to complete a self-assessment questionnaire.
