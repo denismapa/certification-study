@@ -130,5 +130,9 @@ PCI DSS Validation Requirements Overview
 
 - SAQ D
   - Merchants: All merchants not included in the descriptions for other SAQ types.
-  
+
   - Service Providers: All service providers identified by a payment brands as eligible to complete a self-assessment questionnaire.
+
+### Chapter 3: Section 8 - PA-DSS
+
+Overview: PA-DSS (Payment Application Data Security Standard)
